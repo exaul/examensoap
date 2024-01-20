@@ -20,6 +20,11 @@ namespace examensoap.BussinesAction
               Id = 2,
               TituloLibro ="1984"
            },
+            new Libro()
+           {
+              Id = 3,
+              TituloLibro ="Jack el cazador de gigantes "
+           },
         };
 
         public static LibrosServices GetAllLibros()
